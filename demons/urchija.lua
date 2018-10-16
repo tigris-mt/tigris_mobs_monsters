@@ -71,6 +71,7 @@ tigris.mobs.register(":tigris_mobs:urchija", {
 
         fight = {
             actions = {
+                "reset_timeout",
                 "fight_tick",
                 "throw",
             },
